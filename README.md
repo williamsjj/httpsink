@@ -15,3 +15,7 @@ __httpsink__ is a Twisted plugin meaning you need to add the directory this READ
 
 `twistd httpsink --help` for options list.
 
+To run it with defaults run (requires virtualenv):
+
+`make run`
+

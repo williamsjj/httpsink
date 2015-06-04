@@ -7,9 +7,6 @@ Simple HTTP server that will listen on the spec'd port with the specified SSL op
 
 ## Requirements ##
 
-* Python 2.7 or newer
-* Twisted 15.0 or newer.
-
 Run `pip install -r requirements.txt` to install the latest requirements.
 
 ## Usage ##

@@ -14,7 +14,7 @@ TWISTD_OPTS=-n
 
 prepare_env: venv/bin/activate
 venv/bin/activate: requirements.txt
-	test -d venv || virtualenv venv
+	test -d venv || virtualenv "$(PWD)/venv"
 	venv/bin/pip install -U -I -r requirements.txt
 	touch venv/bin/activate
 
